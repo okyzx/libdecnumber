@@ -1,0 +1,13 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+datarootdir=@datarootdir@
+datadir=@datadir@
+includedir=@includedir@/liblibdecnumber-3.68
+
+Name: liblibdecnumber
+Description: IBM decimal type library.
+Version: @VERSION@
+Requires: 
+Libs: -L${libdir} -ldecnumber
+Cflags: -I${includedir}
